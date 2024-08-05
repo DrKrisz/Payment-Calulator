@@ -1,4 +1,4 @@
-let user = 'krisz';
+let user = 'lulu';
 
 function setUser(selectedUser) {
     user = selectedUser;
