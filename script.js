@@ -3,6 +3,7 @@ let user = 'lulu';
 function setUser(selectedUser) {
     user = selectedUser;
     document.getElementById('calculator-heading').innerText = `Payment Calculator for ${user.charAt(0).toUpperCase() + user.slice(1)}`;
+    document.getElementById('tax').value = user === 'lulu' ? 10 : 13; // Set tax percentage based on user
 }
 
 const API_KEY = 'your_api_key_here'; // Replace with your actual API key
